@@ -1,14 +1,16 @@
 {
-    "name": "Jamiemufu/mimecast_email",
+    "name": "jamiemufu/mimecast-email",
     "description": "Mimecast Email Send Wrapper",
     "authors": [
         {
-            "name": "Jamie Evans",
+            "name": "JamiemUfu",
             "email": "jamie.evans@itech.media"
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+      "ext-curl": "*"
+    },
     "autoload": {
         "psr-4": {
             "MimecastMail\\": "src/"
